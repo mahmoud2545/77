@@ -1,0 +1,5 @@
+cat ara-ip.txt | while read line
+do
+python r.py  $line  -v
+done
+
